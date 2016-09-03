@@ -1,0 +1,81 @@
+/*套用風格google*/
+
+.bodyTitle{
+	font-weight: normal;
+}
+
+h1{
+	font-family: 'Changa One', cursive;
+	margin: 5px 0; 
+	font-size: 5em;
+	line-height: 0.8em;
+}
+h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3em;
+	margin: -5px; 
+}
+
+body, body p{
+	color:green;
+	background-color: #FFFF99;
+}
+
+header, footer{
+	text-align: center;
+	margin: 0 auto;
+}
+
+header{
+	background-color: #00CC66; 
+}
+
+header a{
+	color:white;
+}
+/*設定所有不要底線, about顏色, 標題變色*/
+header a:hover, a.selected, a{
+	text-decoration: none;
+	color: green;
+}
+
+section ul{
+	list-style: none;
+	max-width: 650px;
+	margin: 20px auto; 
+	padding: 0 5%;
+}
+
+/*星際大戰字體部分跟about*/
+a.selected:hover, a p:hover{
+	color: white;
+}
+
+#picture{
+	list-style: none;
+	/*這為何會影響圖片左右距離？*/
+	max-width: 850px;
+	margin: 0 auto; 
+	/*margin是上右下左，padding只是space？*/
+	padding: 0 5%;
+}
+
+img{
+	max-width: 100%;
+}
+
+#FF15picture{
+	display: block;
+	list-style: none; 
+	border-radius: 100%;
+	
+	border: 5px solid green;
+}
+
+
+
+
+
+
+
+
